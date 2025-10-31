@@ -45,7 +45,7 @@ body {
     text-align: inherit;
     letter-spacing: .1em;
     font-weight: 700;
-    color: var(--primary);
+    color: #000000;
     margin-bottom: 0.25rem;
     display: block;
 }
@@ -136,7 +136,7 @@ body {
     margin: 0;
     /* 24px - 32px */
     padding: 0 0 clamp(1.5rem, 3vw, 2rem);
-    border-bottom: 1px solid #E8E8E8;
+    border-bottom: 1px solid #000000;
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
@@ -153,7 +153,7 @@ body {
     height: clamp(3.75rem, 6vw, 5rem);
     margin: 0;
     border-radius: 50%;
-    border: 1px solid var(--primary);
+    border: 1px solid #000000;
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -168,7 +168,7 @@ body {
     content: '';
     width: 100%;
     height: 100%;
-    background: var(--primary);
+    background: #000000;
     opacity: .1;
     position: absolute;
     display: block;
@@ -207,7 +207,7 @@ body {
     color: #fff;
     padding: 0 3rem;
     border-radius: 1.875rem;
-    background-color: var(--primary);
+    background-color: #000000;
     display: inline-block;
     position: relative;
     z-index: 1;
@@ -343,28 +343,26 @@ body {
                 <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/abemessing/my-website-images/refs/heads/main/myphoto3.jpg">
                 <!--Tablet and above Image-->
                 <source media="(min-width: 601px)" srcset="https://raw.githubusercontent.com/abemessing/my-website-images/refs/heads/main/myphoto3.jpg">
-                <img loading="lazy" decoding="async" src="https://raw.githubusercontent.com/abemessing/my-website-images/refs/heads/main/myphoto3.jpg" alt="kid" width="320" height="350" style="object-fit: cover; object-position: center 20%;">
+                <img loading="lazy" decoding="async" src="https://raw.githubusercontent.com/abemessing/my-website-images/refs/heads/main/myphoto3.jpg" alt="kid" width="320" height="320" style="object-fit: cover; object-position: center 20%;"
+>
             </picture>
-            <!--Flower-->
-            <img class="cs-flower" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/flower3.svg" alt="graphic" width="153" height="148" aria-hidden="true">
-            <!--Sqiggle-->
-            <img class="cs-squiggle" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/squiggle4.svg" alt="graphic" width="215" height="61" aria-hidden="true">
+  
             <!--SVG Mask-->
             <svg class="cs-mask" width="647" height="600" viewBox="0 0 647 600" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path class="cs-outer-mask" fill-rule="evenodd" clip-rule="evenodd" d="M0 0H647V600H0V0ZM38 110C64.0297 75.766 102.579 52.0824 143 37C144.788 36.3365 146.555 35.5378 148.324 34.7378C150.529 33.7407 152.738 32.7417 155 32C251.273 0.380304 364.071 -8.26436 457 38C514.621 66.6831 553.453 118.152 591.339 168.368C596.562 175.29 601.767 182.188 607 189C657.382 254.558 650.888 352.089 614 422C585.347 476.308 539.036 519.481 487 552C403.358 604.274 320.729 610.296 236 554C116.994 474.921 -74.8032 258.339 38 110Z" fill="#FFF8F5"/>
                 <!--Svg Border-->
-                <path class="cs-mask-border" d="M609.578 419.667L614 422L609.578 419.667C645.882 350.863 651.85 255.566 603.035 192.047L603.035 192.046C597.763 185.184 592.537 178.261 587.308 171.335C549.335 121.032 511.26 70.5951 454.772 42.4761L454.772 42.476C363.478 -2.9739 252.173 5.34746 156.56 36.7504L156.558 36.7511C154.801 37.3273 153.023 38.1029 151.033 39.0003C150.82 39.0965 150.603 39.1945 150.384 39.2937C148.637 40.0841 146.708 40.9569 144.748 41.6845C104.889 56.5573 67.259 79.7797 41.9802 113.026L38 110L41.98 113.027C-12.5389 184.72 5.99713 273.442 54.3776 355.432C102.668 437.269 179.806 510.656 238.767 549.836C280.403 577.499 321.25 589.69 361.787 588.715C402.372 587.739 443.075 573.556 484.35 547.76C535.868 515.565 581.448 472.984 609.578 419.667Z" stroke="#FFD3C6" stroke-width="10"/>
+                <path class="cs-mask-border" d="M609.578 419.667L614 422L609.578 419.667C645.882 350.863 651.85 255.566 603.035 192.047L603.035 192.046C597.763 185.184 592.537 178.261 587.308 171.335C549.335 121.032 511.26 70.5951 454.772 42.4761L454.772 42.476C363.478 -2.9739 252.173 5.34746 156.56 36.7504L156.558 36.7511C154.801 37.3273 153.023 38.1029 151.033 39.0003C150.82 39.0965 150.603 39.1945 150.384 39.2937C148.637 40.0841 146.708 40.9569 144.748 41.6845C104.889 56.5573 67.259 79.7797 41.9802 113.026L38 110L41.98 113.027C-12.5389 184.72 5.99713 273.442 54.3776 355.432C102.668 437.269 179.806 510.656 238.767 549.836C280.403 577.499 321.25 589.69 361.787 588.715C402.372 587.739 443.075 573.556 484.35 547.76C535.868 515.565 581.448 472.984 609.578 419.667Z" stroke="#000000" stroke-width="10"/>
             </svg>
         </div>
         <div class="cs-content">
             <span class="cs-topper">About</span>
-            <h2 class="cs-title"> Abe Messing </h2>
+             <h2 class="cs-title"> Abe Messing </h2>
             <p class="cs-text">
                     Copywriter. Data Analyst. Digital Storyteller. </p>
             <ul class="cs-ul">
                 <li class="cs-li">
                     <picture class="cs-li-picture">
-                        <img class="cs-li-icon" aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/direction.svg" decoding="async" alt="icon" width="36" height="36" loading="lazy">
+                        <img class="cs-li-icon" aria-hidden="true" src="https://raw.githubusercontent.com/abemessing/my-website-images/refs/heads/main/writing%20icon.png" decoding="async" alt="icon" width="36" height="36" loading="lazy">
                     </picture>
                     <div class="cs-flex">
                         <h3 class="cs-h3">Writing</h3>
@@ -374,7 +372,7 @@ body {
                 </li>
                 <li class="cs-li">
                     <picture class="cs-li-picture">
-                        <img class="cs-li-icon" aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/target.svg" decoding="async" alt="icon" width="36" height="36" loading="lazy">
+                        <img class="cs-li-icon" aria-hidden="true" src="https://raw.githubusercontent.com/abemessing/my-website-images/refs/heads/main/target%20icon.png" decoding="async" alt="icon" width="36" height="36" loading="lazy">
                     </picture>
                     <div class="cs-flex">
                         <h3 class="cs-h3">Resume</h3>
